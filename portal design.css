@@ -1,0 +1,347 @@
+html {
+    width: auto;
+    height: 100%;
+}
+
+/*body*/
+body {
+    margin: 0;
+    width: auto;
+    height: 100%;
+    background: linear-gradient(to top, #00fcfc, #ffffff);
+    font-family: "游ゴシック", sans-serif;
+}
+
+/*nav*/
+nav {
+    box-sizing: border-box;
+    width: 100%;
+    height: 10%;
+    display: inline-flex;
+    
+}
+
+#subtitle {
+    width: 9%;
+    height: auto;
+    padding-top: 0.25%;
+    padding-left: 1.5%;
+    letter-spacing: 0.07em;
+}
+
+#linkbox{
+    width: 40%;
+    height: 50%;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+.DisNoneLi{
+    display: none;
+    letter-spacing: 0.07em;
+}
+.navLink {   
+    width: 35%;
+    height: auto;
+    padding-top: 0.8%;
+    text-align: center;
+    font-size: 1.25em;
+    letter-spacing: 1em;
+    cursor: pointer;
+    border-left: solid 1px;
+}
+.navLink-other-1 {
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    border-bottom: double;
+}
+
+#PortalLogo {
+    width: auto;
+    height: 100%;
+    margin-top: 3%;
+    margin-left: 120%;
+}
+
+/*main*/
+main {
+    width: 95%;
+    height: 87%;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    margin-top: 0.5%;
+    margin-left: 2.25%;
+    color: cornsilk;
+    background: linear-gradient(to bottom, rgb(73, 81, 83), rgb(108, 200, 220));
+    animation: fadeIn 1.5s cubic-bezier(1, 0.85, 0.52, 0.99) 1 forwards;
+}
+main::-webkit-scrollbar {
+    display: none;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.fadeout {
+    animation:fadein-keyframes 0.9s ease 0s 1 forwards;
+}
+@keyframes fadein-keyframes {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+article {
+    width: 100%;
+    height: 100%;
+}
+
+#content-items {
+    
+    width: 100%;
+    height: 60%;
+    margin: 0;
+    box-sizing: border-box;
+    display: inline-flex;
+    overflow-y: hidden;
+}
+
+/*video*/
+#videocontainer {
+
+    width: 50%;
+    height: 100%;
+    padding-top: 1%;
+    padding-left: 1.75%;
+    object-fit: cover;
+}
+#video-001 {
+    width: 95%;
+    height: auto;
+}
+
+/*Bulletin Board*/
+#Bordcontainer {
+    box-sizing: border-box;
+
+    width: 30%;
+    height: 100%;
+}
+form {
+    width: 100%;
+    height: 100%;
+
+    box-sizing: border-box;
+    padding: 2% 0% ;
+}
+#Comenntbox {
+    width: 95%;
+    height: 2em;
+    font-size: 2em;
+    resize: none;
+    margin-top: 0.5%;
+}
+.BottomStyle {
+    margin-bottom: 1%;
+}
+#BulletinBoard {
+    border: solid 1px;
+    box-sizing: border-box;
+    
+    height: 70%;
+    overflow-y: scroll;
+}
+
+/*SNS Link*/
+#SNScontainer {
+    box-sizing: border-box;
+
+    width: 20%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 1%;
+}
+.SNSes {
+    width: 25%;
+    height: 12.5%;
+    overflow: hidden;
+    margin-bottom: 5%;
+    border-radius: 0.7em;
+    font-size: 1.25em;
+    font-family: cursive;
+    letter-spacing: 0.4em;
+    line-height: 250%;
+    transition: all, 0.5s;
+}
+.SNSes:hover{
+    width: 75%;
+}
+
+#YoutubeLink {
+    float: right;
+    background-color: rgb(205, 32, 31);
+}
+#YoutubeLink:hover #Youtubelogo {
+    height: 50%;
+    margin: 15px 5% 7px 8%;
+}
+#Youtubelogo {
+    width: auto;
+    height: 65%;
+    box-sizing: border-box;
+    margin: 10px 7% 14px 7%;
+    float: left;
+    transition: all, 0.7s;
+}
+#YL-jump {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#TwitterLink {
+    clear: right;
+    float: right;
+    background-color: rgb(85, 172, 238);
+}
+#TwitterLink:hover  #Twitterlogo {
+    height: 50%;
+    margin: 14px 10% 7px 10%;
+}
+#Twitterlogo {
+    width: auto;
+    height: 75%;
+    box-sizing: border-box;
+    margin: 7px 6% 7px 18%;
+    float: left;
+    transition: all, 0.7s;
+}
+#TW-jump {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#JobcanLink {
+    clear: right;
+    float: right;
+    background-color: rgb(88, 204, 146);
+}
+#JobcanLink:hover  #Jobcanlogo {
+    margin: 7px 10% 7px 10%;
+}
+#Jobcanlogo {
+    width: auto;
+    height: 75%;
+    box-sizing: border-box;
+    margin: 7px 6% 7px 23%;
+    float: left;
+    transition: all, 0.5s;
+}
+#JC-jump {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#TQ-formbox {
+    font-family: "Yu Gthic", "游ゴシック", YuGothic, "游ゴシック体";
+    color: white;
+    clear: right;
+    float: right;
+    box-sizing: border-box;
+    width: 100%;
+    height: 12.5%;
+    margin-top: 20%;
+}
+
+#TQ-linkicon {
+    width: auto;
+    height: 80%;
+    transform: rotate(-45deg);
+}
+
+/*Office Link*/
+#OfficeLink {
+    box-sizing: border-box;
+
+    width: 100%;
+    height: 40%;
+    overflow: hidden;
+    display: inline-flex;
+}
+
+#NewsList, #OfficeForm {
+    box-sizing: border-box;
+
+    width: 45%;
+    height: 100%;
+    margin: 0 5%;
+}
+
+.Linktitle {
+    box-sizing: border-box;
+    height: 15%;
+    font-size: 32px;
+}
+
+#ul001 {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#ul001 li {
+    margin: 2.5% 0;
+}
+
+#scr_wrap {
+    box-sizing: border-box;
+    height: 60%;
+
+    display: flex;
+    margin-top: 5%;
+}
+#ul002 {
+    box-sizing: border-box;
+    width: 89%;
+    height: 100%;
+    
+    margin: 0;
+    padding-top: 10px;
+    list-style: none;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+}
+#ul002::-webkit-scrollbar{
+    display: none;
+}
+.listStyleNone {
+    width: 40%;
+    display: inline-block;
+}
+.OfficeLinkLogo {
+    width: 90%;
+    height: auto;
+    margin: 0;
+}
+
+.Scr_Btn {
+    height: 100%;
+    border: none;
+    background: #8dcece;
+}
+.Scr_Btn:hover {
+    filter: brightness(120%);
+}
